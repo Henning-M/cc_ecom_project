@@ -20,7 +20,7 @@ app.use(express.json());
 require('./passport-config'); // Import Passport configuration
 
 app.use(cors({
-  origin: 'http://localhost:3001', // Specify your frontend's URL
+  origin: 'https://cc-ecom-project-1.onrender.com', // Specify your frontend's URL
   credentials: true // Allow credentials (cookies) to be sent
 }));
 
