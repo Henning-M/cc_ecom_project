@@ -1,0 +1,26 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .product-list > .product-card {
+    flex: 1 0 21%; /* Ensures 4 products per row with some flexibility */
+    max-width: 250px;
+    min-width: 200px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-list > .product-card {
+      flex: 1 0 45%; /* Adjusts to 2 products per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-list > .product-card {
+      flex: 1 0 90%; /* Adjusts to 1 product per row on very small screens */
+    }
+  }
+  

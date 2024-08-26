@@ -1,0 +1,27 @@
+/* checkout.css */
+.checkout-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .checkout-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-table th,
+  .checkout-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .checkout-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .checkout-table tr:last-child td {
+    font-weight: bold;
+  }
+  

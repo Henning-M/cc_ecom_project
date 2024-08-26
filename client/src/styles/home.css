@@ -1,0 +1,10 @@
+/* Styles for Home Component */
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-container h1 {
+    font-size: 2rem;
+    color: #333;
+  }

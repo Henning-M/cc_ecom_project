@@ -1,0 +1,9 @@
+.confirmation-container {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .confirmation-container h2 {
+    color: #28a745; /* Green color for success */
+  }
+  

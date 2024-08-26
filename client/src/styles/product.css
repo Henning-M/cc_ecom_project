@@ -1,0 +1,49 @@
+.product-card {
+  width: 250px; /* Fixed width for the card */
+  margin: 5px; /* Margin around the card */
+  border: 1px solid #ddd; /* Border around the card */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px; /* Padding inside the card */
+  box-sizing: border-box; /* Include padding and border in the card's total width and height */
+  display: flex; /* Use flexbox to manage the layout */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Space items evenly with no extra space at the bottom */
+  background-color: #fff; /* Background color */
+  cursor: pointer; /* Changes cursor to a hand when hovering over the card */
+}
+  
+  .product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image {
+    width: calc(100% - 10px); /* 100% width minus 5px margin on each side */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5px; /* Margin around the image */
+    object-fit: cover; /* Cover the container */
+  }
+  
+  .product-info {
+  }
+  
+  .product-name {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  .product-description {
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .product-price {
+    text-align: center;
+    font-size: 16px;
+    color: #28a745;
+    font-weight: bold;
+  }

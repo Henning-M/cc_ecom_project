@@ -1,0 +1,86 @@
+.cart-container {
+  margin: 20px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: fixed; /* Ensures columns have fixed width */
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.cart-table th {
+  background-color: #f2f2f2;
+}
+
+/* Set all column headers to 25% width */
+.cart-table th {
+  width: 25%;
+}
+
+/* Quantity header spans both the number and button columns */
+.cart-table th.quantity-header {
+  text-align: center;
+}
+
+/* Ensures the two columns under "Quantity" split the space evenly */
+.cart-table td.quantity-cell {
+  width: 12.5%; /* Half of the 25% allocated to the Quantity column */
+  text-align: center;
+}
+
+.cart-table td.button-cell {
+  width: 12.5%; /* Other half of the Quantity column */
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.quantity-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the remove button */
+.remove-button {
+  background-color: #ff4d4d;
+}
+
+.remove-button:hover {
+  background-color: #cc0000;
+}
+
+
+.checkout-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
